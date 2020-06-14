@@ -1,0 +1,22 @@
+{% extends 'Front/Elevehome.html.twig' %}
+
+{% block body %}
+
+{% endblock %}
+
+
+{% block logout %}
+    <li>
+        <!-- First Tier Drop Down -->
+
+        <a href="#"> <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+        <input type="checkbox" id="drop-2"/>
+        <ul>
+
+            <li><a href="{{ path('fos_user_security_logout') }}" class="drop-text">Logout</a></li>
+            <li>{{ u.username }}</li>
+        </ul>
+    </li>
+
+
+{% endblock %}

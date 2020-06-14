@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="">
+
+<head>
+    <title>i-School</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8"/>
+    <meta name="keywords"
+          content="i-School Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"/>
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //Meta tag Keywords -->
+
+    <!-- Custom-Files -->
+    <link href="{{ asset('Front/css/bootstrap.css') }}" rel='stylesheet' type='text/css'/>
+    <!-- Bootstrap-CSS -->
+    <link href="{{ asset('Front/css/style.css') }}" rel='stylesheet' type='text/css'/>
+    <!-- Style-CSS -->
+    <link href="{{ asset('Front/css/font-awesome.min.css') }}" rel="stylesheet">
+    <!-- Font-Awesome-Icons-CSS -->
+    <!-- //Custom-Files -->
+
+    <!-- Web-Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese"
+          rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&amp;subset=latin-ext"
+          rel="stylesheet">
+    <!-- //Web-Fonts -->
+</head>
+
+<body>
+
+{% block header %}
+
+    <header class="bg-dark">
+        <div class="container py-xl-4 py-lg-3">
+            <div class="header d-lg-flex justify-content-between align-items-center py-2 px-sm-2 px-1" >
+                <a href="" class="brand-link">
+                    <img src="{{ asset('Front/images/logo.png')}}" alt="" class="brand-image img-circle elevation-3"
+                         style="opacity: .8; width: 10%">
+                    <span class="navbar-brand font-weight-bold" style="color: whitesmoke">i-School</span>
+                <div class="nav_w3ls ml-lg-5">
+                    <nav>
+                        <label for="drop" class="toggle">Menu</label>
+                        <input type="checkbox" id="drop"/>
+                        <ul class="">
+                            <li><a style="color: whitesmoke" href="{{ path('session') }}">Home</a></li>
+                            <li><a style="color: whitesmoke"  href="{{ path('fos_user_security_login') }}">Login</a></li>
+                            <li><a style="color: whitesmoke" href="{{ path('fos_user_registration_register') }}">Register</a></li>
+
+
+
+                        </ul>
+                    </nav>
+                </div>
+                <!-- //nav -->
+            </div>
+        </div>
+    </header>
+
+
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+<!-- banner -->
+<div class="main-w3pvt mian-content-wthree text-center" id="home">
+    <div class="container">
+        <div class="style-banner mx-auto">
+            <h3 class="text-wh font-weight-bold"><br><br>Bienvenue à <span>i-School</span> <br><a style="color: whitesmoke" >Votre Partenaire Digital</a></h3>
+            <p class="mt-3 text-li" id="join"></p>
+            <!-- form -->
+            <div class="home-form-w3ls mt-5">
+
+            </div>
+            <!-- //form -->
+        </div>
+    </div>
+</div>
+<!-- //banner -->
+
+
+
+<
+<!-- courses -->
+</section>
+<!-- //places -->
+<section id="apr">
+<div class="wpbwrapper" >
+    <h1 style="text-align: center">Notre Mission</h1> <br>
+
+</section>
+
+</div>
+<div style="text-align: center">
+    <br>
+    <span style="font-size: 14pt; font-family: inherit; font-style: inherit "> ✓ construire un cadre de travail qui permet à chaque élève de progresser.</span> <br><br>
+    <span style="font-size: 14pt;"> ✓ Respecter le profil de chaque élève, et respecter les choix d’éducation.</span> <br> <br>
+    <span style="font-size: 14pt;"> ✓ Donner du sens pour permettre l’acquisition de compétences.</span> <br> <br>
+    <span style="font-size: 14pt;"> ✓ Construire un cadre de travail qui permette à chaque élève de progresser
+solidement,</span> <br> <br>
+</div> <br> <br>
+
+
+{% block footer %}
+    <footer class="py-5 bg-dark" id="footer">
+        <div class="container py-xl-4 py-lg-3">
+            <div class="row footer-grids">
+
+
+                <div class="col-lg-2 col-6 footer-grid footer-contact mt-lg-0 mt-4">
+                    <h3 class="mb-sm-4 mb-3"><i class="fa fa-envelope"></i>&nbsp;<a style="color: blanchedalmond" href="mailto:malekboussa@gmail.com">Contactez nous</a></h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            +216 25 979 181
+                        </li>
+                        <li>
+                            i-School@gmail.com
+                        </li>
+                    </ul>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </footer>
+{% endblock %}
+
+</body>
+
+</html>

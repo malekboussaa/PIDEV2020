@@ -1,0 +1,24 @@
+
+{% extends 'Back/back2.html.twig' %}
+{% block body %}
+    <br>
+    <br>
+    <br>
+
+<table border="1">
+
+
+    {% for ee in e %}
+
+    <tr>
+
+
+            <td> <a href={{ path('test',{'id':ee.id} )}}> Afficher l'emploi de {{ ee.nom }} </a></td>
+    {% endfor %}
+
+</table>
+    <br>     <br>
+    <br>
+
+
+{% endblock %}

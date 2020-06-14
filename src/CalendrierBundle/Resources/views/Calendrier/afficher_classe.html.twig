@@ -1,0 +1,24 @@
+{% extends 'Front/Elevehome.html.twig' %}
+{% block content %}
+    <table border="1">
+        <tr>
+
+            <td> libelle</td>
+        <td> Emploi</td>
+
+
+        </tr>
+
+
+        <tr>
+
+
+            <td> <a href={{ path('afficherEmploi_classe',{'id':e.id} )}}> Afficher Emploi!!</a></td>
+
+
+    </table>
+    <br>     <br>
+    <br>
+
+
+{% endblock %}
